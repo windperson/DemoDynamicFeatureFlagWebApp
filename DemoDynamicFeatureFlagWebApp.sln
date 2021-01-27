@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoDynamicFeatureFlagWebApp", "DemoDynamicFeatureFlagWebApp\DemoDynamicFeatureFlagWebApp.csproj", "{051B6C9E-F4D7-412F-A3B5-FE1F077A28BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{051B6C9E-F4D7-412F-A3B5-FE1F077A28BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{051B6C9E-F4D7-412F-A3B5-FE1F077A28BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{051B6C9E-F4D7-412F-A3B5-FE1F077A28BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{051B6C9E-F4D7-412F-A3B5-FE1F077A28BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2F1C8D24-EC05-4165-AC6E-BE30DEABC33F}
+	EndGlobalSection
+EndGlobal

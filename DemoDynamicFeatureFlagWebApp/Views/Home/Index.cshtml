@@ -1,0 +1,35 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+<feature name="FeatureA-1">
+    <p>This can only be seen if '<code>Feature A-1</code>' is enabled.</p>
+</feature>
+<feature name="FeatureA-1" negate="true">
+    <p>This will be shown if '<code>Feature A-1</code>' is disabled.</p>
+</feature>
+
+<feature name="FeatureA-2">
+    <p>This can only be seen if '<code>Feature A-2</code>' is enabled.</p>
+</feature>
+<feature name="FeatureA-2" negate="true">
+    <p>This will be shown if '<code>Feature A-2</code>' is disabled.</p>
+</feature>
+
+<feature name="FeatureB-1">
+    <p>This can only be seen if '<code>Feature B-1</code>' is enabled.</p>
+</feature>
+<feature name="FeatureB-1" negate="true">
+    <p>This will be shown if '<code>Feature B-1</code>' is disabled.</p>
+</feature>
+<feature name="FeatureB-2">
+    <p>This can only be seen if '<code>Feature B-2</code>' is enabled.</p>
+</feature>
+<feature name="FeatureB-2" negate="true">
+    <p>This will be shown if '<code>Feature B-2</code>' is disabled.</p>
+</feature>
